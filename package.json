@@ -1,0 +1,25 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "\"Ob-havo dasturi\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "type": "module"
+  },
+  "author": "Maxmud",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "node-emoji": "^1.11.0",
+    "node-fetch": "^2.6.1",
+    "openweather-apis": "^4.4.2",
+    "request": "^2.88.2",
+    "telegraf": "^4.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
